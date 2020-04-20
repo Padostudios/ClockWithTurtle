@@ -144,41 +144,41 @@ def nine():
 #These functions are positions of number to be drawn
 def firstPos():
     pen.penup()
-    pen.setpos(-400,20)
+    pen.setpos(-420,20)
     pen.pendown()
     
     
 
 def secondPos():
     pen.penup()
-    pen.setpos(-310,20)
+    pen.setpos(-330,20)
     pen.pendown()
     
 
 
 def thirdPos():
     pen.penup()
-    pen.setpos(-200,20)
+    pen.setpos(-160,20)
     pen.pendown()
     
 
 def fourthPos():
     pen.penup()
-    pen.setpos(-120,20)
+    pen.setpos(-80,20)
     pen.pendown()
    
 
 
 def fifthPos():
     pen.penup()
-    pen.setpos(-10,20)
+    pen.setpos(60,20)
     pen.pendown()
     
 
 
 def sixthPos():
     pen.penup()
-    pen.setpos(70,20)
+    pen.setpos(160,20)
     pen.pendown()
     
 #--------------------------------------------------------
@@ -211,7 +211,7 @@ def whatisI(i):
 
 def firstStp():
     pen.penup()
-    pen.setpos(-280,10)
+    pen.setpos(-250,10)
     pen.seth(270)
     pen.pendown()
     pen.forward(30)
@@ -222,7 +222,7 @@ def firstStp():
 
 def secondStp():
     pen.penup()
-    pen.setpos(-90,10)
+    pen.setpos(-30,10)
     pen.seth(270)
     pen.pendown()
     pen.forward(30)
@@ -262,14 +262,9 @@ while True:
 
 
 
-
-
 done()
 
 
-#kalem.penup()  Bu ve alttakini yerimi değiştirmek için kullanıcaz
-#kalem.setpos(-300,300)
-# turtle.setx(x) ve turtle.sety(y) fonksiyonlarına bakman lazım
 
 
 #pen.speed(10)
